@@ -19,10 +19,11 @@ a {
   margin: 0;
   padding: 0;
   float: left;
-  width: 22%;
+  width: 20%;
   background-color: #6ebfff;
   color: #ffffff;
   text-align: center;
+  position: fixed;
 }
 
 /*header*/
@@ -53,7 +54,7 @@ a {
 /*nav*/
 
 .nav {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .taglist {
@@ -63,7 +64,7 @@ a {
 .item {
   color: #90f2ff;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 8px;
 }
 
 .nav a, .taglist a {
@@ -91,7 +92,7 @@ a {
 .main {
   margin-top: 30px;
   float: right;
-  width: 78%;
+  width: 79%;
 }
 
 .main a {
