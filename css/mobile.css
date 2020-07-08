@@ -1,0 +1,103 @@
+/*sidebar*/
+
+.sidebar {
+  position: relative;
+  width: 100%;
+  float: none;
+}
+
+/*header*/
+
+#logo {
+  margin: 15px auto;
+}
+
+.sidebar .nav,
+.sidebar .taglist {
+  display: none;
+}
+
+#menu-toggle {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 3px solid;
+  border-color: #ffffff;
+}
+
+#tags-toggle {
+  font-size: 18px;
+  border-bottom: 2px solid;
+  border-color: #ffffff;
+}
+
+#menu-checkbox:checked ~ .nav,
+#tags-checkbox:checked ~ .taglist {
+  display: block;
+}
+
+#menu-checkbox:checked ~ #tags-toggle {
+  display: inline-block;
+}
+
+/*nav*/
+
+.nav {
+  margin-top: 15px;
+}
+
+.taglist {
+  margin-top: 12px;
+}
+
+.item {
+  padding: 6px;
+}
+
+.nav .item {
+  margin: 2px;
+}
+
+.taglist .item {
+  margin: 2px;
+}
+
+/*main*/
+
+.main {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.articles, .page {
+  padding: 20px 40px 20px 40px;
+  margin: auto 5%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.intro {
+  border-bottom: 1px solid;
+  margin: 22px 0px 22px 0px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.status {
+  font-size: 14px;
+}
+
+.abstract {
+  font-size: 17px;
+  margin: 10px 0px 10px 0px;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.more a{
+  font-size: 16px;
+}
